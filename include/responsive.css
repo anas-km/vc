@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+[Table of Contents]
+
+1. 1199
+2. 991
+3. 768
+4. 640
+5. 567
+6. 479
+
+******************************/
+
+@media (max-width:1199px) {
+	.stellarnav > ul > li > a{padding: 5px 5px;}
+}
+@media (max-width:991px) {
+	.services-wrapper .content-wrap i.fa-3x{font-size:2em;}
+	.Maincontent-wrap h1, .title-head h1{font-size: 32px;}
+	.services-wrap .content-wrap .item .panel > h5{font-size: 20px;}
+}
+@media (max-width:768px) {
+ .active {display: block;}
+ .banner .owl-carousel.owl-drag .owl-item .item .content-wrap > h1{font-size: 36px;}
+ .banner .owl-carousel.owl-drag .owl-item .item .content-wrap > h4{font-size: 24px;}
+ .Head-topStrip .contact-wrap{text-align:center; }
+ .Head-topStrip .social-wrap > ul{text-align: center;}
+/*  header.sticky{top:64px;} */
+ .welcome-wrap .btn-wrap{margin-bottom: 30px;}
+ .page-header .breadcrumb{position: static; margin:0px;}
+ .welcome-wrap .readmore-btn{margin-bottom:20px;}
+ .Maincontent-wrap h1, .title-head h1{font-size: 28px;}
+ .benfits-wrap .title-wrap > h2{font-size: 24px;}
+ .archive-wrapper .edition-wrap{margin-top:20px;}
+ .topText{ margin-top:14%; padding-top:1%; padding-bottom:1%; padding-left:3%;} 
+ .topText2{  padding-top:14%; padding-bottom:1%; padding-left:3%;} 
+ .topText2Inside{  padding-top:14%; } 
+ 
+ .banner .owl-carousel.owl-drag .owl-item .item{position: relative; padding-top:10%;}
+
+ 
+}
+
+@media (max-width:640px) {
+ .banner .owl-carousel.owl-drag .owl-item .item .content-wrap > h1{font-size: 30px;}
+ .banner .owl-carousel.owl-drag .owl-item .item .content-wrap > h4{font-size: 18px;}
+ .banner .owl-carousel.owl-drag .owl-item .item{position: relative; padding-top:12%;}
+}
+@media (max-width:567px) {
+	.image-wrapper > img{width:100%;}
+}
+@media (max-width:480px) {
+ .banner .owl-carousel.owl-drag .owl-item .item .content-wrap > h1{font-size: 24px;}
+ .banner .owl-carousel.owl-drag .owl-item .item .content-wrap > h4{font-size: 16px;}
+ .image-wrapper > img{max-width:100%;}
+ .topText{ margin-top:15%; padding-top:1%; padding-bottom:1%; padding-left:3%;} 
+ .topText2{  padding-top:15%; padding-bottom:1%; padding-left:3%;} 
+ .topText2Inside{  padding-top:16%;  } 
+ .banner .owl-carousel.owl-drag .owl-item .item{position: relative; padding-top:13.5%;}
+
+}
+
+@media (max-width:410px) {
+	.banner .owl-carousel.owl-drag .owl-item .item{position: relative; padding-top:16%;}
+}
+
+@media (max-width:345px) {
+	.banner .owl-carousel.owl-drag .owl-item .item{position: relative; padding-top:20%;}
+}
