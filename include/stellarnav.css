@@ -7,7 +7,7 @@
 /* all nav */
 .stellarnav { position: relative; width: 100%; z-index: 9900; line-height: normal; }
 /* .stellarnav a { color: #777; } */
-.stellarnav ul { margin: 0; padding: 0; text-align: center; }
+.stellarnav ul { margin: 0; padding: 0; text-align: right; }
 .stellarnav li { list-style: none; display: block; margin: 0; padding: 0; position: relative; line-height: normal; vertical-align: middle; }
 .stellarnav li a { padding:15px 15px 15px 25px; display: block; text-decoration: none;  font-size: 16px;  box-sizing: border-box; -webkit-transition: all .3s ease-out; -moz-transition: all .3s ease-out; transition: all .3s ease-out; color:#373737;  }
 .stellarnav li > ul > li > a:before{font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";  position: absolute;  left: 8px; font-size:14px; color: #373737; top: 17px; }
