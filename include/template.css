@@ -232,3 +232,11 @@ footer .widget_tweets ul li a:hover {color: #fff;}
 7. Application Development
 *********************************/
 .technology-team-wrap{width: 100%; padding-top:30px;}
+/*********************************
+Logo
+*********************************/
+
+.logoImg{
+  width:60%;
+  margin:5px 0;
+}
